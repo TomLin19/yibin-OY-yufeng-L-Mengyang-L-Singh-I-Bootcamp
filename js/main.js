@@ -11,7 +11,7 @@ window.onload = function(){
     }else{
     i++
     }}
-
+    
     (function(){
         "use strict";
         
@@ -29,11 +29,3 @@ window.onload = function(){
             
     })();
     
-    function Show(){
-        document.getElementById('shade').classList.remove('hide');
-        document.getElementById('modal').classList.remove('hide');
-    }
-     function Hide(){
-        document.getElementById('shade').classList.add('hide');
-        document.getElementById('modal').classList.add('hide');
-    }

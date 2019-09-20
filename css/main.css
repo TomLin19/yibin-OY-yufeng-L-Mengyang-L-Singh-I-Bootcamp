@@ -5,6 +5,13 @@
 	display: none;
 }
 
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 13pt;
+}
+
 #mainBody {
 	margin: 0 auto;
 	width: 400px;
@@ -24,21 +31,24 @@
 #logoPart img {
 	text-align: center;
 	margin: 0 auto;
-
+	width: 400px;
+	height: auto;
+	margin-left: -30px;
 }
 #inTro{
 	width: 380px;
 	height: 250px;
-	background-color: #4e3225;
-	border-radius: 6px;
 	text-align: center;
 	margin: 0 auto;
+	position: relative;
 }
 #inTro h2{
 	text-align: center;
 	margin: 0 auto;
 	font-size: 25px;
-	color:aliceblue ;
+	color:#4e322 ;
+	position: relative;
+	margin-top: 50px;
 
 }
 #inTro p{
@@ -47,6 +57,9 @@
 	font-size: 16px;
 	color: darkgrey;
 	line-height: 20px;
+	background-color: #4e3225;
+	border-radius: 6px;
+	position: relative;
 }
 
 #mainHeader
@@ -111,6 +124,18 @@
   margin-top:0px;
   padding-top:0px;
 }
+#socialMedia1
+{
+  float:right;
+  position:relative;
+  margin-top:0px;
+  padding-top:0px;
+}
+#socialMedia2{
+	float: right;
+	position: relative;
+	margin-top: 0px;
+}
 .SM
 {
   width:50px;
@@ -140,10 +165,10 @@
 
 #mainNav ul li a
 {
-	color:pink;
+	color:silver;
 	padding: 10px;
-	font-size: 20px;
-	font-family: 'Varela Round', sans-serif;
+	font-size: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 #moreInfo {
@@ -181,7 +206,7 @@
 }
 
 #groupText p {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: darkgrey;
 	font-size: 20px;
 	text-align: center;
@@ -234,7 +259,16 @@
 	width: 100%;
 	margin-top: 50px;
 }
-
+#mainfooter1 {
+	background-color: grey;
+	height: 60px;
+	margin-top: 600px;
+}
+#mainfooter2{
+	background-color: grey;
+	height: 60px;
+	margin-top: 0px;
+}
 .hide {
 	display: none;
 }
@@ -268,12 +302,12 @@
 #contactForm {
 	width: 400px;
 	height: 300px;
-	margin-top: 40px;
-	margin-left: 66px;
+	margin-top: 80px;
+	margin-left: 6px;
 }
 
 #contactForm img {
-	width: 80%;
+	width: 100%;
 	height: auto;
 	border:5px solid grey;
 	border-radius: 5px;
@@ -290,10 +324,169 @@
 }
 
 
-@media screen and (min-width: 700px) {
-	#mainBody {
-		margin: 0 auto;
-		width: 1080px;
-		height: 1280px;
-		background-color: bisque;
+.seMenu {
+    height: 40px;
+    margin-top: 100px;
+
+    background-color: #ebebeb;
+}
+ 
+.seMenu ul {
+    list-style: none;
+    line-height: 40px;
+    margin-left: 50px;
+}
+ 
+.seMenu li {
+    display: block;
+    float: left;
+}
+ 
+.seMenu a {
+    display: block;
+    color: rgb(53, 97, 122);
+    text-decoration: none;
+	padding: 0 20px;
+	font-family: 'ABeeZee', sans-serif;
+}
+ 
+#seMenu a:hover {
+	color: dimgrey;;}
+	
+#Cvideo video{
+	width: 400px;
+	height: auto;
+	margin-top: 45px;
+	text-align: center;
+}
+#mapPart button{
+	margin-left: 130px;
+}
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 500px;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	padding: 0;
+	border: 1px solid #888;
+	width: 35%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s
+}
+
+
+@-webkit-keyframes animatetop {
+	from {top:-300px; opacity:0}
+	to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+	from {top:-300px; opacity:0}
+	to {top:0; opacity:1}
+}
+
+
+.close {
+	color: white;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: #0f2a4d;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.modal-header {
+	padding: 2px 16px;
+	background-color: rgb(233, 202, 155);
+	color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+	padding: 2px 16px;
+	background-color: rgb(233, 202, 155);
+	text-align: right;
+	color: white;
+}
+#iconPart{
+	width: 400px;
+	height: 700px;
+	float: left;
+}
+#iconPart img{
+	width: 40%;
+	height: auto;
+	float: left;
+}
+#iconPart h2{
+	font-size: 30px;
+	width: 400px;
+	text-align: center;
+	margin: 0 auto;
+	color: #424040;
+}
+#iconPart p{
+	font-size: 20px;
+	width: 400px;
+	text-align: center;
+	margin: 0 auto;
+	color: grey;
+	height: 150px;
+	line-height: 20px;
+}
+#Map{
+	width: 400px;
+	height: 350px;
+}
+#Map h2{
+	font-size: 30px;
+	color: #5f3412;
+	text-align: center;
+	margin: 0 auto;
+}
+#Map img{
+	width: 400px;
+	height: auto;
+}
+#contentUs {
+	width: 400px;
+	height: 350px;
+	margin-top: 100px;
+}
+#contentUs img{
+	width: 400px;
+	height: auto;
+}
+@media screen and (min-width: 400px){
+	#mainBody{
+		background-color: #0f2a4d;
 	}
+}
+
+@media screen and (min-width:750px){
+	#mainBody{
+		background-color: red;
+	}
+}
