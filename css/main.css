@@ -1,14 +1,120 @@
 @charset "UTF-8";
-/* CSS Document */
-.hidden{
-    display: none;
-}
-#mainBody{
-        margin:0 auto;
-        width: 400px;
-        height:1334px;
-        background-color: #ebebeb;
 
+/* CSS Document */
+.hidden {
+	display: none;
+}
+
+#mainBody {
+	margin: 0 auto;
+	width: 400px;
+	height: 1334px;
+	background-color: #ebebeb;
+
+}
+
+#logoPart {
+	text-align: center;
+	margin: 0 auto;
+	width: 400px;
+	height: 238px;
+
+}
+
+#logoPart img {
+	text-align: center;
+	margin: 0 auto;
+
+}
+#inTro{
+	width: 380px;
+	height: 250px;
+	background-color: #4e3225;
+	border-radius: 6px;
+	text-align: center;
+	margin: 0 auto;
+}
+#inTro h2{
+	text-align: center;
+	margin: 0 auto;
+	font-size: 25px;
+	color:aliceblue ;
+
+}
+#inTro p{
+	text-align: center;
+	margin: 0 auto;
+	font-size: 16px;
+	color: darkgrey;
+	line-height: 20px;
+}
+
+#mainHeader
+{
+  margin: 5px 0 20px 0; 
+}
+
+#mainNav
+{
+  display:flex;
+  flex-direction:column;
+  margin-bottom:20px;
+}
+
+#mainNav button{margin-left:20px; }
+
+#burgerCon
+{
+  display:none;
+  margin-top:20px;
+}
+
+
+#burgerCon.slideToggle{display:block;}
+
+#mainNav button
+{
+ background: url(../images/burgerMenu1.svg) center no-repeat;
+ border:0;
+ width:40px;
+ height:40px;
+ transition: all 400ms ease;
+}
+
+
+#mainNav button.expanded{
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);	
+  transform: rotate(90deg);
+}
+
+#mainNav li a{
+  display:block;
+  color:#8f8f8f;
+  padding:10px 0;
+  text-align:center;
+  text-decoration:none;
+  list-style-type:none;
+}
+
+#mainNav li{border-bottom: 1px solid #efefef;}
+#mainNav li:first-child {border-top: 1px solid #efefef;}
+#mainNav li:last-child {margin-bottom: 10px; }
+#mainNav li a:hover {background-color: #efefef}
+
+
+
+#socialMedia
+{
+  float:right;
+  position:relative;
+  margin-top:0px;
+  padding-top:0px;
+}
+.SM
+{
+  width:50px;
+  height:40px;
 }
 #mainNav
 {
@@ -39,19 +145,155 @@
 	font-size: 20px;
 	font-family: 'Varela Round', sans-serif;
 }
-#moreInfo{
-    width: 100%;
-    height: 500px;
-}
-#moreInfo img{
-    width: 500px;
-    height: auto;
+
+#moreInfo {
+	width: 380px;
+	height: 250px;
+	border: 1px solid grey;
+	margin: 100px auto;
+	position: relative;
+	overflow: hidden;
+
 }
 
-@media screen and (min-width: 400px){
-#mainBody{
-    margin: 0 auto;
-    width: 1080px;
-    height: 1280px;
-    background-color: bisque;
+#groupImg {
+	display: table-row;
+	width: 2000px;
+	height: 250px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all, 3s;
 }
+
+#groupImg img {
+	float: left;
+	width: 380px;
+	height: auto;
+}
+
+#groupText h2 {
+	font-family: 'Poppins', sans-serif;
+	color: grey;
+	font-size: 25px;
+	text-align: center;
+	margin-top: -60px;
+}
+
+#groupText p {
+	font-family: 'Poppins', sans-serif;
+	color: darkgrey;
+	font-size: 20px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#infoDetails {
+	margin: 10px auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+
+#infoDetails h3 {
+	font-size: 25px;
+	font-family: 'ABeeZee', sans-serif;
+	color: dimgrey;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+#infoDetails p {
+	font-family: 'ABeeZee', sans-serif;
+	color: whitesmoke;
+	font-size: 18px;
+	line-height: 20px;
+	margin-top: 25px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #764c29;
+	width: 300px;
+	height: 200px;
+	border-radius: 10px;
+
+}
+
+#infoDetails img {
+	border-radius: 50%;
+	margin-top: 30px;
+	margin-left: 40px;
+	width: 80%;
+	height: auto;
+}
+
+#mainfooter {
+	background-color: #5f3412;
+	height: 60px;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.hide {
+	display: none;
+}
+
+.c1 {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, .5);
+	z-index: 2;
+}
+
+.c2 {
+	background-color: white;
+	position: fixed;
+	width: 400px;
+	height: 300px;
+	top: 50%;
+	left: 50%;
+	z-index: 3;
+	margin-top: -150px;
+	margin-left: -200px;
+}
+
+#modal p {
+	margin-left: 80px;
+}
+
+#contactForm {
+	width: 400px;
+	height: 300px;
+	margin-top: 40px;
+	margin-left: 66px;
+}
+
+#contactForm img {
+	width: 80%;
+	height: auto;
+	border:5px solid grey;
+	border-radius: 5px;
+}
+
+#contentUs {
+	width: 400px;
+	height: 300px;
+}
+
+#contentUs img {
+	width: 80%;
+	height: auto;
+}
+
+
+@media screen and (min-width: 700px) {
+	#mainBody {
+		margin: 0 auto;
+		width: 1080px;
+		height: 1280px;
+		background-color: bisque;
+	}
