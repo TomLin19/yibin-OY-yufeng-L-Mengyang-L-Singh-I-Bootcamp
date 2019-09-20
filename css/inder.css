@@ -1,0 +1,71 @@
+.hidden
+{
+  display:none;
+}
+#mainHeader
+{
+  margin: 5px 0 20px 0; 
+}
+
+#mainNav
+{
+  display:flex;
+  flex-direction:column;
+  margin-bottom:20px;
+}
+
+#mainNav button{margin-left:20px; }
+
+#burgerCon
+{
+  display:none;
+  margin-top:20px;
+}
+
+
+#burgerCon.slideToggle{display:block;}
+
+#mainNav button
+{
+ background: url(../images/burgerMenu1.svg) center no-repeat;
+ border:0;
+ width:40px;
+ height:40px;
+ transition: all 400ms ease;
+}
+
+
+#mainNav button.expanded{
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);	
+  transform: rotate(90deg);
+}
+
+#mainNav li a{
+  display:block;
+  color:#8f8f8f;
+  padding:10px 0;
+  text-align:center;
+  text-decoration:none;
+  list-style-type:none;
+}
+
+#mainNav li{border-bottom: 1px solid #efefef;}
+#mainNav li:first-child {border-top: 1px solid #efefef;}
+#mainNav li:last-child {margin-bottom: 10px; }
+#mainNav li a:hover {background-color: #efefef}
+
+
+
+#socialMedia
+{
+  float:right;
+  position:relative;
+  margin-top:0px;
+  padding-top:0px;
+}
+.SM
+{
+  width:50px;
+  height:40px;
+}
