@@ -1,4 +1,5 @@
 
+
 window.onload = function(){
     window.setInterval("scrollImg()", 3000);
     }
@@ -11,6 +12,7 @@ window.onload = function(){
     }else{
     i++
     }}
+
     
     (function(){
         "use strict";

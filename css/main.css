@@ -61,7 +61,16 @@
 	border-radius: 6px;
 	position: relative;
 }
-
+.map2{
+	display: none;
+}
+.logo1{
+	width: 180px;
+	height: auto;
+	z-index: 2;
+	margin-top: -180px;
+	margin-left: 120px;
+}
 #mainHeader
 {
   margin: 5px 0 20px 0; 
@@ -479,14 +488,679 @@
 	width: 400px;
 	height: auto;
 }
+.deMenu{
+	display: none;
+
+}
+
+
+
+
+
+
+
+
 @media screen and (min-width: 400px){
 	#mainBody{
-		background-color: #0f2a4d;
+		width: 700px;
+		height: 768px;
+		background-color:rgb(230, 231, 216);
 	}
+	.logo{
+		position: relative;
+		widows: 50%;
+		height: auto;
+		margin-top: 0px;
+	}
+	.logo1{
+		width: 400px;
+		height: auto;
+		z-index: 2;
+		margin-top: -550px;
+		margin-left: 170px;
+	}
+
+	#burgerCon{
+		display:none;
+	}
+	#burgerMenu{
+		display: none;
+	}
+	#button{
+		display: none;
+	}
+
+	#socialMedia{
+		display: none;
+		
+	 }
+	 
+	#logoPart {
+		text-align: center;
+		margin: 0 auto;
+		width: 700px;
+		height:auto;
+	
+	}
+	
+	#logoPart img {
+		text-align: center;
+		margin: 0 auto;
+		width: 700px;
+		height: auto;
+		margin-left: -30px;
+	}
+	
+	#inTro{
+		width: 550px;
+		height: auto;
+		text-align: center;
+		margin: 0 auto;
+		position: relative;
+	}
+	#inTro h2{
+		text-align: center;
+		margin: 0 auto;
+		font-size: 2.5rem;
+		color:#857a74 ;
+		position: relative;
+		margin-top: 50px;
+	
+	}
+	#inTro p{
+		text-align: center;
+		margin: 0 auto;
+		font-size: 1.15rem;
+		color: darkgrey;
+		line-height: 20px;
+		background-color: #4e3225;
+		border-radius: 6px;
+		position: relative;
+		height:auto;
+	}
+
+    #moreInfo {
+		width: 480px;
+		height: 450px;
+		border: 0px solid grey;
+		margin: 100px auto;
+		position: relative;
+		overflow: hidden;
+	
+	}
+	
+	#groupImg {
+		display: table-row;
+		width: 1900px;
+		height: 450px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transition: all, 3s;
+	}
+	
+	#groupImg img {
+		float: left;
+		width: 500px;
+		height: auto;
+	}
+	#groupText p{
+		display:none;
+
+	}
+	#infoDetails {
+		margin: 10px auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	
+	}
+	
+	#infoDetails h3 {
+		font-size: 25px;
+		font-family: 'ABeeZee', sans-serif;
+		color: dimgrey;
+		text-align: center;
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+	
+	#infoDetails p {
+		font-family: 'ABeeZee', sans-serif;
+		color: whitesmoke;
+		font-size: 18px;
+		line-height: 20px;
+		margin-top: 25px;
+		margin: 0 auto;
+		text-align: center;
+		background-color: #764c29;
+		width: 300px;
+		height: 200px;
+		border-radius: 10px;
+	
+	}
+	
+	#infoDetails img {
+		border-radius: 50%;
+		margin-top: 30px;
+		margin-left: 40px;
+		width: 80%;
+		height: auto;
+	}
+	.informationbox1{
+		float: left;
+		width: 400px;
+		height: 500px;
+		margin: 50px;
+	}
+	
+	.seMenu {
+		display: none;
+	}
+	.SM{
+		width: 50%;
+		height: auto;
+	}
+	/* Homepage desktop end  */
+
+	/* contact page desktop star  */
+    #contactForm {
+		width: 700px;
+		height: auto;
+		margin-top: 80px;
+		margin-left: 75px;
+	}
+	
+	#contactForm img {
+		width: 100%;
+		height: auto;
+		border:0px solid grey;
+		border-radius: 5px;
+	}
+	
+	#contentUs {
+		width: 650px;
+		height: auto;
+	}
+	
+	#contentUs img {
+		width: 80%;
+		height: auto;
+	}
+	#mapPart{
+		display: none;
+	}
+	
+	#contentUs {
+		width: 700px;
+		height: auto;
+		margin-top: 100px;
+	}
+	#contentUs img{
+		width: 600px;
+		height: auto;
+		margin-left: 80px;
+		margin-top: 350px;
+
+	}
+	#contentUs {
+		display: none;
+	}
+	#Map h2{
+		margin-left: 150px;
+		height: 100px;
+		width: 200px;
+		font-size: 2.5rem;
+
+	}
+    .map1{
+		display: none;
+	}
+	.map2{
+		margin-top:150px;
+		margin-left:70px;
+		display: flex;
+	}
+	#mainfooter2{
+		display: none;
+	}
+	#contactInfo{
+		width: 700px;
+		height: 900px;
+		display: flex;
+	}
+	#contactInfo h3{
+		font-size: 2.3rem;
+		font-family:'ABeeZee', sans-serif;
+		color: black;
+		margin-left:-800px;
+		margin-top: 1000px;
+		width:300px;
+		height: 300px;
+
+
+	}
+    #contactInfo p{
+		font-size: 2.0rem;
+		font-family:'ABeeZee', sans-serif;
+		color: black; 
+		margin-top: 1000px;
+	}
+	#contactInfo img{
+		width: 900px;
+		height: auto;
+		margin-left: 80px;
+		margin-top: 350px;
+	}
+	.deMenu{
+		display: inline;
+		width: 500px;
+		background-color: #efefef;
+		height: 60px;
+	}
+	
+	 
+	.deMenu ul {
+		list-style: none;
+		line-height: 40px;
+		margin-left: 0px;
+	}
+	 
+	.deMenu li {
+		display: block;
+		float: left;
+	}
+	 
+	.deMenu a {
+		display: block;
+		font-size: 20px;
+		padding-left: 80px;
+		color: rgb(53, 97, 122);
+		text-decoration: none;
+	
+		font-family: 'ABeeZee', sans-serif;
+	}
+	 
+	.deMenu a:hover {
+		color: dimgrey;;}
+	
+		#Cvideo video{
+			width: 500px;
+			height: auto;
+			margin-top: 45px;
+			margin-left: 60px;
+			text-align: center;
+		}
+    #iconPart h2{
+		font-size: 2.5rem;
+		font-family: 'ABeeZee', sans-serif;
+		text-align: center;
+		margin-left: 120px;
+		
+		color: #ebebeb;
+	}
+
+	#iconPart P{
+		font-size: 1.5rem;
+		font-family: 'ABeeZee', sans-serif;
+		text-align: center;
+		margin-left: 80px;
+		color: grey;
+	}
+#iconPart{
+	width: 600px;
+	float: left;
+	margin-left: 60px;
 }
+.work1 img{
+		float: left;
+		margin-left: 50px;
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width:750px){
 	#mainBody{
-		background-color: red;
+		width: 1024px;
+		height: 768px;
+		background-color:#efefef;
 	}
+	.logo{
+		position: relative;
+		widows: 50%;
+		height: auto;
+		margin-top: 0px;
+	}
+	.logo1{
+		width: 400px;
+		height: auto;
+		z-index: 2;
+		margin-top: -900px;
+		margin-left: 330px;
+	}
+
+	#burgerCon{
+		display:none;
+	}
+	#burgerMenu{
+		display: none;
+	}
+	#button{
+		display: none;
+	}
+
+	#socialMedia{
+		display: none;
+		
+	 }
+	 
+	#logoPart {
+		text-align: center;
+		margin: 0 auto;
+		width: 1024px;
+		height:auto;
+	
+	}
+	
+	#logoPart img {
+		text-align: center;
+		margin: 0 auto;
+		width: 1024px;
+		height: auto;
+		margin-left: -30px;
+	}
+	
+	#inTro{
+		width: 950px;
+		height: auto;
+		text-align: center;
+		margin: 0 auto;
+		position: relative;
+	}
+	#inTro h2{
+		text-align: center;
+		margin: 0 auto;
+		font-size: 2.5rem;
+		color:#857a74 ;
+		position: relative;
+		margin-top: 50px;
+	
+	}
+	#inTro p{
+		text-align: center;
+		margin: 0 auto;
+		font-size: 1.15rem;
+		color: darkgrey;
+		line-height: 20px;
+		background-color: #4e3225;
+		border-radius: 6px;
+		position: relative;
+		height:auto;
+	}
+
+    #moreInfo {
+		width: 480px;
+		height: 450px;
+		border: 0px solid grey;
+		margin: 100px auto;
+		position: relative;
+		overflow: hidden;
+	
+	}
+	
+	#groupImg {
+		display: table-row;
+		width: 1900px;
+		height: 450px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transition: all, 3s;
+	}
+	
+	#groupImg img {
+		float: left;
+		width: 500px;
+		height: auto;
+	}
+	#groupText p{
+		display:none;
+
+	}
+	#infoDetails {
+		margin: 10px auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	
+	}
+	
+	#infoDetails h3 {
+		font-size: 25px;
+		font-family: 'ABeeZee', sans-serif;
+		color: dimgrey;
+		text-align: center;
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+	
+	#infoDetails p {
+		font-family: 'ABeeZee', sans-serif;
+		color: whitesmoke;
+		font-size: 18px;
+		line-height: 20px;
+		margin-top: 25px;
+		margin: 0 auto;
+		text-align: center;
+		background-color: #764c29;
+		width: 300px;
+		height: 200px;
+		border-radius: 10px;
+	
+	}
+	
+	#infoDetails img {
+		border-radius: 50%;
+		margin-top: 30px;
+		margin-left: 40px;
+		width: 80%;
+		height: auto;
+	}
+	.informationbox1{
+		float: left;
+		width: 400px;
+		height: 500px;
+		margin: 50px;
+	}
+	
+	.seMenu {
+		display: none;
+	}
+	.SM{
+		width: 50%;
+		height: auto;
+	}
+	/* Homepage desktop end  */
+
+	/* contact page desktop star  */
+    #contactForm {
+		width: 900px;
+		height: auto;
+		margin-top: 80px;
+		margin-left: 75px;
+	}
+	
+	#contactForm img {
+		width: 100%;
+		height: auto;
+		border:0px solid grey;
+		border-radius: 5px;
+	}
+	
+	#contentUs {
+		width: 950px;
+		height: auto;
+	}
+	
+	#contentUs img {
+		width: 80%;
+		height: auto;
+	}
+	#mapPart{
+		display: none;
+	}
+	
+	#contentUs {
+		width: 1024px;
+		height: auto;
+		margin-top: 100px;
+	}
+	#contentUs img{
+		width: 900px;
+		height: auto;
+		margin-left: 80px;
+		margin-top: 350px;
+
+	}
+	#contentUs {
+		display: none;
+	}
+	#Map h2{
+		margin-left: 450px;
+		height: 100px;
+		width: 200px;
+		font-size: 2.5rem;
+
+	}
+    .map1{
+		display: none;
+	}
+	.map2{
+		margin-top:150px;
+		margin-left:70px;
+		display: flex;
+	}
+	#mainfooter2{
+		display: none;
+	}
+	#contactInfo{
+		width: 800px;
+		height: 900px;
+		display: flex;
+	}
+	#contactInfo h3{
+		font-size: 2.3rem;
+		font-family:'ABeeZee', sans-serif;
+		color: black;
+		margin-left:-800px;
+		margin-top: 1000px;
+		width:300px;
+		height: 300px;
+
+
+	}
+    #contactInfo p{
+		font-size: 2.0rem;
+		font-family:'ABeeZee', sans-serif;
+		color: black; 
+		margin-top: 1000px;
+	}
+	#contactInfo img{
+		width: 900px;
+		height: auto;
+		margin-left: 80px;
+		margin-top: 350px;
+	}
+	.deMenu{
+		display: inline;
+		width: 1080px;
+		background-color: #efefef;
+		height: 60px;
+	}
+	
+	 
+	.deMenu ul {
+		list-style: none;
+		line-height: 40px;
+		margin-left: 50px;
+	}
+	 
+	.deMenu li {
+		display: block;
+		float: left;
+	}
+	 
+	.deMenu a {
+		display: block;
+		font-size: 20px;
+		padding-left: 150px;
+		color: rgb(53, 97, 122);
+		text-decoration: none;
+	
+		font-family: 'ABeeZee', sans-serif;
+	}
+	 
+	.deMenu a:hover {
+		color: dimgrey;;}
+	
+		#Cvideo video{
+			width: 900px;
+			height: auto;
+			margin-top: 45px;
+			margin-left: 60px;
+			text-align: center;
+		}
+
+	#iconPart{
+		width: 1020px;
+		height: 700px;
+		float: left;
+		margin-left: 60px;
+	}
+    #iconPart h2{
+		font-size: 2.5rem;
+		font-family: 'ABeeZee', sans-serif;
+		text-align: center;
+		background-color: #ebebeb;
+		color: grey;
+		margin-left: 250px;
+	}
+
+	#iconPart P{
+		font-size: 1.5rem;
+		font-family: 'ABeeZee', sans-serif;
+		text-align: center;
+		background-color: #ebebeb;
+		color: grey;
+		margin-left: 270px;
+	}
+
+	.work1 img{
+		float: left;
+		width: 40%;
+		height: auto;
+		margin: 50px;
+
+	}
+	#mainfooter {
+		display: none;
+	}
+	#mainfooter1 {
+		display: none;
+	}
+	#mainfooter2{
+		display: none;
+	}
+	
 }
