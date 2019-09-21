@@ -307,17 +307,25 @@
 #modal p {
 	margin-left: 80px;
 }
+#Contact{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
 
 #contactForm {
+	display: flex;
+	flex-direction: column;
 	width: 400px;
-	height: 300px;
+	height: 260px;
 	margin-top: 80px;
 	margin-left: 6px;
 }
 
 #contactForm img {
-	width: 100%;
-	height: auto;
+	width: 360px;
+	height: 400px;
 	border:5px solid grey;
 	border-radius: 5px;
 }
@@ -335,7 +343,7 @@
 
 .seMenu {
     height: 40px;
-    margin-top: 100px;
+    margin-top: 130px;
 
     background-color: #ebebeb;
 }
@@ -663,17 +671,18 @@
 	/* Homepage desktop end  */
 
 	/* contact page desktop star  */
-    #contactForm {
-		width: 700px;
-		height: auto;
-		margin-top: 80px;
-		margin-left: 75px;
+	#contactForm {
+		display: flex;
+		width: 500px;
+		height: 400px;
+		margin-top: 60px;
+		margin-left: 36px;
 	}
 	
 	#contactForm img {
-		width: 100%;
-		height: auto;
-		border:0px solid grey;
+		width: 500px;
+		height: 400px;
+		border:5px solid grey;
 		border-radius: 5px;
 	}
 	
@@ -710,14 +719,15 @@
 		height: 100px;
 		width: 200px;
 		font-size: 2.5rem;
+		margin-top: 50px;
 
 	}
     .map1{
 		display: none;
 	}
 	.map2{
-		margin-top:150px;
-		margin-left:70px;
+		margin-top:-70px;
+		margin-left:0px;
 		display: flex;
 	}
 	#mainfooter2{
@@ -893,20 +903,23 @@
 		text-align: center;
 		margin: 0 auto;
 		font-size: 2.5rem;
-		color:#857a74 ;
+		color:#48505a ;
 		position: relative;
-		margin-top: 50px;
+		margin-top: 80px;
+		font-family: 'ABeeZee', sans-serif;
 	
 	}
 	#inTro p{
 		text-align: center;
 		margin: 0 auto;
 		font-size: 1.15rem;
-		color: darkgrey;
-		line-height: 20px;
+		color: whitesmoke;
+		line-height: 26px;
+		font-family: 'ABeeZee', sans-serif;
 		background-color: #4e3225;
 		border-radius: 6px;
 		position: relative;
+		font-size: 20px;
 		height:auto;
 	}
 
@@ -994,19 +1007,22 @@
 	/* Homepage desktop end  */
 
 	/* contact page desktop star  */
-    #contactForm {
-		width: 900px;
-		height: auto;
-		margin-top: 80px;
-		margin-left: 75px;
+
+	#contactForm {
+		display: flex;
+		width: 700px;
+		height: 500px;
+		margin-top: 60px;
+		margin-left: 166px;
 	}
 	
 	#contactForm img {
-		width: 100%;
-		height: auto;
-		border:0px solid grey;
+		width: 700px;
+		height: 500px;
+		border:5px solid grey;
 		border-radius: 5px;
 	}
+	
 	
 	#contentUs {
 		width: 950px;
@@ -1047,8 +1063,8 @@
 		display: none;
 	}
 	.map2{
-		margin-top:150px;
-		margin-left:70px;
+		margin-top:-70px;
+		margin-left:80px;
 		display: flex;
 	}
 	#mainfooter2{
@@ -1083,6 +1099,7 @@
 		margin-top: 350px;
 	}
 	.deMenu{
+		margin-top: -50px;
 		display: inline;
 		width: 1080px;
 		background-color: #efefef;
@@ -1093,7 +1110,8 @@
 	.deMenu ul {
 		list-style: none;
 		line-height: 40px;
-		margin-left: 50px;
+		margin-left: 60px;
+		margin-top: -80px;
 	}
 	 
 	.deMenu li {
@@ -1103,16 +1121,15 @@
 	 
 	.deMenu a {
 		display: block;
-		font-size: 20px;
+		font-size: 18px;
 		padding-left: 150px;
 		color: rgb(53, 97, 122);
 		text-decoration: none;
-	
 		font-family: 'ABeeZee', sans-serif;
 	}
 	 
 	.deMenu a:hover {
-		color: dimgrey;;}
+		color: dimgrey;}
 	
 		#Cvideo video{
 			width: 900px;
